@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+    background:rgba(0,0,0,0.7);
+    background-image: url("/Users/ravimaurya/Desktop/Food Pics/images3.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container h1{
+    color: orangered;
+    margin-left:10px;
+    cursor: pointer;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 4px;
+
+}
+
+.navbar ul li a:hover{
+    text-decoration:underline;
+
+}
+.content{
+    position:absolute;
+    color:#ffff;
+    top: 40%;
+    left: 29%;
+    
+}
+.content h3{
+    font-family:sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+
+}
+.content h1{
+    text-align: center;
+    font-size: 50px;
+
+}
+.content p{
+    text-align: center;
+    margin-top: 17px;
+
+}
+.search{
+    position: absolute;
+    top:54%;
+    left:36%;
+    padding-bottom:20px;
+}
+.search input{
+    margin-top: 10px;
+    outline:none;
+    border:none;
+    padding:12px 40px;
+    size:1em;
+    width:100%;
+
+}
+
+.submit{
+    position:absolute;
+    margin-top:30%;
+    margin-left:43%;
+
+}
+
+.submit a{
+    text-decoration:none;
+    color:#fff;
+    padding:12px 25px ;
+    background-color:cornflowerblue;
+
+
+}
+.submit a:hover{
+    text-decoration:none;
+    color:#fff;
+    padding:12px 25px ;
+    background-color:orangered;
+}
+.photo{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 800px;
+    margin-left:20px;
+    margin-right: 30px}
+
+
+
+.photo :hover{
+    height:450px;
+    width:auto;
+}
+    
+
+.photo img{
+    width: 330px;
+    height: auto;
+}
+
+.profit h3{
+    position:absolute;
+    color:#fff;
+    margin-top:700px;
+
+  }
+
+
